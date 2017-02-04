@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/qingweilou/FrontView/issues"
   },
-  "homepage": "https://github.com/qingweilou/FrontView#readme"
+  "homepage": "https://github.com/qingweilou/FrontView#readme",
+  "dependencies": {
+    "vue": "^2.1.10",
+    "vue-router": "^2.2.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
 }
