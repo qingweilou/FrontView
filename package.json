@@ -1,0 +1,22 @@
+{
+  "name": "fronthelper",
+  "version": "1.0.0",
+  "description": "front view to find helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingweilou/FrontView.git"
+  },
+  "keywords": [
+    "helpers"
+  ],
+  "author": "Qingwei Lou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingweilou/FrontView/issues"
+  },
+  "homepage": "https://github.com/qingweilou/FrontView#readme"
+}
