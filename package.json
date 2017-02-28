@@ -4,7 +4,9 @@
   "description": "front view to find helpers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startServer": "pm2 start server/app.js",
+    "dev": "webpack-dev-server --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -20,11 +22,26 @@
   },
   "homepage": "https://github.com/qingweilou/FrontView#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "mongodb": "^2.2.24",
     "vue": "^2.1.10",
+    "vue-resource": "^1.1.2",
     "vue-router": "^2.2.0"
   },
   "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-runtime": "^6.22.0",
+    "body-parser": "^1.16.1",
+    "css-loader": "^0.26.1",
     "express": "^4.14.1",
+    "file-loader": "^0.10.0",
+    "style-loader": "^0.13.1",
+    "vue-hot-reload-api": "^2.0.8",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^10.3.0",
+    "vue-style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.1.10",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   }

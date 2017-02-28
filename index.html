@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Front Helper</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+           <div class="navbar-header">
+              <a class="navbar-brand" href="#" v-on:click="tab=0">Front Helper</a>
+          </div>
+        <ul class="nav navbar-nav pull-right">
+          <li v-bind:class="{active: tab==1}" v-on:click="tab=1"><router-link to="/Help">Help</router-link></li>
+          <li v-bind:class="{active: tab==2}" v-on:click="tab=2"><router-link to="/About">About</router-link></li>
+        </ul>
+      </div>
+    </nav> 
+        <router-view></router-view>
+    </div>    
+    <script src="build/fronthelper.js"></script>
+  </body>
+</html>
